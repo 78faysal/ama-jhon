@@ -2,9 +2,9 @@ import { Link, Outlet } from "react-router-dom";
 
 const DashboardLayout = () => {
     return (
-        <div className="flex mt-5 gap-5">
+        <div className="flex mt-5 gap-5 p-5">
             <div className="w-[20%]">
-                <div className="bg-gray-800 p-5">
+                <div className="bg-base-300 p-5">
                     <nav>
                         <ul>
                             <li>
