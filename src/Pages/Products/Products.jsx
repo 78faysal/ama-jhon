@@ -3,7 +3,7 @@ import Product from "../Product/Product";
 
 const Products = () => {
     const {products} = useLoaderData();
-    console.log(products);
+    // console.log(products);
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-7 px-20">
             {
